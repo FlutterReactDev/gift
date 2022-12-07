@@ -162,6 +162,7 @@ body {
   font-family: Avenir Next Cyr;
   font-weight: 750;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .card__text {
