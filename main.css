@@ -21,6 +21,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
 .gift {
   display: flex;
   align-items: center;
@@ -29,6 +30,36 @@ body {
   cursor: pointer;
 }
 
+.gift__title {
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.gift__subtitle {
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
 .gift-click {
   position: absolute;
   bottom: 0;
@@ -154,6 +185,7 @@ body {
   border-radius: 40px;
   padding: 29px 0;
   cursor: pointer;
+  color: white;
   border: none;
 }
 
