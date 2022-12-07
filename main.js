@@ -1,5 +1,6 @@
 $(".gift").click(function () {
   $(this).addClass("open");
+  $('.gift-click').hide(300)
   setTimeout(() => {
     $(".confetti").css({ display: "block" });
   }, 500);
@@ -15,5 +16,6 @@ $(".gift").click(function () {
 
   setTimeout(() => {
     $(".box-body").addClass("show ");
+    
   },1000);
 });
