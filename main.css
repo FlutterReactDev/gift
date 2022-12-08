@@ -34,16 +34,15 @@ body {
   font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 800;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 60px;
+  line-height: 74px;
 
   text-align: center;
   text-transform: uppercase;
 
   color: #ffffff;
 
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
-  margin-bottom: 10px;
+  text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .gift__subtitle {
@@ -142,11 +141,15 @@ body {
   z-index: 1;
 }
 .card {
-  padding: 50px;
+  padding: 10px;
   background-color: #fff;
+  border: 1px solid #DFDFDF;
   min-width: 560px;
 }
-
+.card__content {
+  padding: 40px;
+  border: 1px solid #DFDFDF;
+}
 .card__img img {
   max-width: 100%;
   height: auto;
@@ -401,10 +404,21 @@ body {
   .gift {
     transform: scale(0.8);
   }
+  .gift-container {
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 480px) {
   .gift {
-    transform: scale(0.6);
+    transform: scale(0.7) translateY(-25%);
+  }
+  .gift__title {
+    font-size: 48px;
+    line-height: normal;
+  }
+  .gift-container {
+    padding-top: 50px;
+    justify-content: space-between;
   }
   .gift-click {
     width: 200px;
@@ -413,6 +427,6 @@ body {
 }
 @media screen and (max-width: 320px) {
   .gift {
-    transform: scale(0.4);
+    transform: scale(0.4) translateY(-60%);
   }
 }
