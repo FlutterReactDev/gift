@@ -143,12 +143,12 @@ body {
 .card {
   padding: 10px;
   background-color: #fff;
-  border: 1px solid #DFDFDF;
+  border: 1px solid #dfdfdf;
   min-width: 560px;
 }
 .card__content {
   padding: 40px;
-  border: 1px solid #DFDFDF;
+  border: 1px solid #dfdfdf;
 }
 .card__img img {
   max-width: 100%;
@@ -409,12 +409,6 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
-  .box-body.show {
-    transition: 0.3s transform;
-    transform: scale(1) translateX(-50%) translateY(-25%);
-    top: 50%;
-    z-index: 1;
-  }
   .gift {
     transform: scale(0.7) translateY(-25%);
   }
@@ -429,6 +423,12 @@ body {
   .gift-click {
     width: 200px;
     right: -120px;
+  }
+  .box-body.show {
+    transition: 0.3s transform;
+    transform: scale(1) translateX(-50%) translateY(-25%);
+    top: 50%;
+    z-index: 1;
   }
 }
 @media screen and (max-width: 320px) {
