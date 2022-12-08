@@ -1,6 +1,11 @@
 @font-face {
-  font-family: Avenir Next Cyr;
+  font-family: "Avenir Next Cyr";
   src: url(./AvenirNextCyr-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next Cyr Bold";
+  src: url(./AvenirNextCyr-Heavy.woff) format("woff");
 }
 
 .svg {
@@ -31,7 +36,7 @@ body {
 }
 
 .gift__title {
-  font-family: "Avenir Next Cyr";
+  font-family: "Avenir Next Cyr Bold";
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
