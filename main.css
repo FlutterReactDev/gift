@@ -409,6 +409,12 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
+  .box-body.show {
+    transition: 0.3s transform;
+    transform: scale(1) translateX(-50%) translateY(-25%);
+    top: 50%;
+    z-index: 1;
+  }
   .gift {
     transform: scale(0.7) translateY(-25%);
   }
@@ -417,7 +423,7 @@ body {
     line-height: normal;
   }
   .gift-container {
-    padding-top: 50px;
+    padding-top: 45px;
     justify-content: space-between;
   }
   .gift-click {
